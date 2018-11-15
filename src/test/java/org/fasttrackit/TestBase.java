@@ -39,6 +39,7 @@ public class TestBase {
         actions.click().perform();
     }
 
+    // useful when running tests in Firefox
     protected void waitForPageToLoad(long timeout) {
         long waited = 0;
         long pauseMillis = 500;
